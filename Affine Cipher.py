@@ -27,6 +27,7 @@ def mul_inv(num):
 text = input("\nEnter the text to be encrypted: ")
 key_1 = int(input("Enter key 1: "))
 key_2 = int(input("Enter key 2: "))
+
 encrypted = encrypt(text, key_1, key_2)
 print("\nEncrypted: " + encrypted)
 decrypted = decrypt(encrypted, key_1, key_2)
